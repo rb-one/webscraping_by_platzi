@@ -52,8 +52,6 @@
 
 **Web Crawling** es para mapear e indexar páginas web para conocer su contenido, así como hace Google y varios buscadores.
 
-[regresar al contenido]('#contenido')
-
 ### Clase 2 Ética y Legalidad
 
 - Estoy violando alguna reglamentación local?
@@ -69,8 +67,6 @@ Tenemos estos articulos
 
 Casi todas las paginas tienen un archivo robots.txt para darnos  las buenas practicas de obtención de esas paginas, pero no es vinculante y no hay nada que no nos permita escrapear todo el sitio. Se responsable.
 
-[regresar al contenido]('#contenido')
-
 ### Clase 3 Configuración del entorno de trabajo con Jupyter
 
 Introducción
@@ -81,8 +77,6 @@ También cuenta con un administrador de paquetes y entornos llamado conda,que no
 Otra de las ventajas de Anaconda es que es multi-plataforma y cuenta con instaladores para Windows, MacOs y Linux. En este documento te enseñaré a instalar Anaconda en Windows.
 
 Para más información sobre el proceso de instalación de Anaconda e instructivos sobre cómo instalarlo en otros sistemas operativos, te recomiendo que visites la página oficial: <https://docs.anaconda.com/anaconda/install/>.
-
-[regresar al contenido]('#contenido')
 
 ## Modulo 2 HTML: Requests y BeautifulSoup
 
@@ -98,14 +92,10 @@ Instalamos las librerías:
 ![requests_2](src/requests_2.png)
 ![requests_3](src/requests_3.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 5 Parseando HTML con BeautifulSoup
 
 ![bs4_1](src/bs4_1.png)
 ![bs4_2](src/bs4_2.png)
-
-[regresar al contenido]('#contenido')
 
 ### Clase 6 Extrayendo información
 
@@ -113,28 +103,20 @@ Instalamos las librerías:
 ![bs4_4](src/bs4_4.png)
 ![bs4_5](src/bs4_5.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 7 Manejo de errores
 
 La importancia de la programación defensiva, y solución al reto anterior
 
 ![manejo_de_errores](src/manejo_de_errores.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 8 Descargando Contenido
 
 ![descargando_contenido_1](src/descargando_contenido_1.png)
-
-[regresar al contenido]('#contenido')
 
 ### Clase 9 Descargando Multimedia
 
 ![descargando_contenido_multimedia_1](src/descargando_contenido_multimedia_1.png)
 ![descargando_contenido_multimedia_2](src/descargando_contenido_multimedia_2.png)
-
-[regresar al contenido]('#contenido')
 
 ### Clase 10 Unificando el scraper
 
@@ -312,8 +294,6 @@ if __name__ == "__main__":
     main(url)
 ```
 
-[regresar al contenido]('#contenido')
-
 ## Modulo 3 Scraping JavaScript con Selenium
 
 ### Clase 11 Instalación y configuración de Selenium
@@ -342,8 +322,6 @@ Safari: <https://webkit.org/blog/6900/webdriver-support-in-safari-10/>
 
 Es importante que el archivo descargado esté en una carpeta accesible desde la Jupyter Notebook, ya que necesitaremos referenciarlo desde el código para poder utilizarlo.
 
-[regresar al contenido]('#contenido')
-
 ### Clase 12 Sitios dinámicos y Selenium
 
 Cuando hice este curso era imposible por el covid usar este sitio, lo mejor es hacerlo por cuenta propia con otras paginas, guardo capturas para guia.
@@ -351,8 +329,6 @@ Cuando hice este curso era imposible por el covid usar este sitio, lo mejor es h
 ![Selenium_example](src/Selenium_example.png)
 ![Selenium_example_1](src/Selenium_example_1.png)
 ![Selenium_example_2](src/Selenium_example_2.png)
-
-[regresar al contenido]('#contenido')
 
 ### Clase 13 Selección de elementos
 
@@ -363,33 +339,23 @@ Vamos a utilizar x-path es decir la ruta xml.
 ![selenium_seleccion_elementos_1](src/selenium_seleccion_elementos_1.png)
 ![selenium_seleccion_elementos_2](src/selenium_seleccion_elementos_2.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 14 Interactuando con los elementos
 
 ![selenium_interactuando_con_elementos_1.png](src/selenium_interactuando_con_elementos_1.png)
-
-[regresar al contenido]('#contenido')
 
 ### Clase 15 Scrapeando escalas y tarifas
 
 ![escalas_y_tarifas_1.png](src/escalas_y_tarifas_1.png)
 ![escalas_y_tarifas_2.png](src/escalas_y_tarifas_2.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 16 Construyendo Funciones
 
 ![construyendo_funciones_1](src/construyendo_funciones_1.png)
 ![construyendo_funciones_2](src/construyendo_funciones_2.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 17 Construyendo la función para unificar el scraper
 
 ![unificar_funciones_1.png](src/unificar_funciones_1.png)
-
-[regresar al contenido]('#contenido')
 
 ### Clase 18 Demoras dinámicas
 
@@ -404,13 +370,9 @@ Lo mejor es usar las demoras dinamicas de selenium.
 
 ![demoras_dinamicas](src/demoras_dinamicas.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 19 Comentarios Finales
 
 Dado que selenium esmuy tardado, usalo como alternativa final, prefiere request y bs4 o apis antes de.
-
-[regresar al contenido]('#contenido')
 
 ## Modulo 4 APIs
 
@@ -434,19 +396,15 @@ Como mencioné antes, las APIs son diseñadas por las mismas empresas que tienen
 
 Json significa JavaScript Object Notation y es un formato para describir objetos que ganó tanta popularidad en su uso que ahora se lo considera independiente del lenguaje. De hecho, lo utilizaremos en este proyecto por más que estemos trabajando en Python, porque es la forma en la que obtendremos las respuestas a las solicitudes que realicemos utilizando las APIs. Para nosotros, no será ni más ni menos que un diccionario con algunas particularidades que iremos viendo a lo largo del curso.
 
-[regresar al contenido]('#contenido')
-
 ### Clase 21 Utilizando APIs: construir una url
 
 ![Api_1](src/Api_1.png)
-
-[regresar al contenido]('#contenido')
 
 ### Clase 22 Utilizando APIs: Tokens y Búsqueda
 
 Spotify te requiere registrar tu aplicacion para poder utilizar la api, sigue la documentacion para ello.
 
-Registrate https://developer.spotify.com/dashboard/tos-accept
+Registrate <https://developer.spotify.com/dashboard/tos-accept>
 
 Crea un una app en el  dashboard
 ![Api_2](src/Api_2.png)
@@ -469,8 +427,6 @@ Creamos una funcion para obtener el token,y obtenemos la discografia a partir de
 
 ![Api_9](src/Api_9.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 24 Obteniendo los albums
 
 Obtenermos los albums implementando la funcion obtener_discografia.
@@ -479,13 +435,9 @@ Obtenermos los albums implementando la funcion obtener_discografia.
 
 ![Api_11](src/Api_11.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 25 Final del proyecto + bonus
 
 ![Api_12](src/Api_12.png)
-
-[regresar al contenido]('#contenido')
 
 ## Modulo 5 Scrapy, Tesseract y Proxies
 
@@ -494,8 +446,6 @@ Obtenermos los albums implementando la funcion obtener_discografia.
 Scrapy es un framework que permite usar funciones asincronas y usar x-path, settear demoras y limitar los dominios, Scrappy funciona mediante clases.
 
 ![Scrapy_1](src/Scrapy_1.png)
-
-[regresar al contenido]('#contenido')
 
 ### Clase 27 Ejecutando el scraper con scrapy
 
@@ -557,8 +507,6 @@ process.start()
 
 Para mas informacion ve a la  documentacion oficial de [scrapy](https://scrapy.org/)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 28 Proxies
 
 Un Proxie es un intermediario entre el servidor web y nuestro scrapper.
@@ -567,8 +515,6 @@ Ubicamos nuestra ip publica
 
 ![Proxy_1](src/Proxy_1.png)
 ![Proxy_2](src/Proxy_2.png)
-
-[regresar al contenido]('#contenido')
 
 ### Clase 29 Tesseract
 
@@ -599,10 +545,6 @@ Deberas instalar las dependencias adicionales del notebook
 ![Tesseract_3](src/Tesseract_3.png)
 ![Tesseract_4](src/Tesseract_4.png)
 
-[regresar al contenido]('#contenido')
-
 ### Clase 30 Conclusion y cierre del curso
 
 Usa este conocimiento sabiamente, lee los terminos y condiciones antes de hacer un scrapper.
-
-[regresar al contenido]('#contenido')
